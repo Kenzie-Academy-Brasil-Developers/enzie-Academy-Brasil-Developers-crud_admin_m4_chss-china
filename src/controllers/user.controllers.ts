@@ -11,6 +11,7 @@ import { updateUserService } from "../services/users/updateUser.services";
 import { listUserProfileServices } from "../services/users/listUserProfile.services";
 import { deleteSoftService } from "../services/users/softdelete.service";
 import { reactivateUserService } from "../services/users/reactive.user.service";
+
 export const createUserControllers = async (
   req: Request,
   res: Response
